@@ -31,17 +31,17 @@
   color: hsl(228, 45%, 44%);
 }
 
-html,
-body,
-main {
-  height: 100%;
-}
 body {
   font-family: var(--font-family-kumbh);
   color: var(--very-dark-desaturated-blue);
   background-color: var(--dark-cyan);
+  background-image: url('../images/bg-pattern-top.svg'),
+    url('../images/bg-pattern-bottom.svg');
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+  background-repeat: no-repeat;
 }
 main {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,13 +113,4 @@ hr {
   font-size: 0.8rem;
   font-weight: 400;
   color: var(--dark-grayish-blue);
-}
-
-@media (max-width: 1000px) {
-  .background-top {
-    left: -600px;
-  }
-  .background-bottom {
-    right: -600px;
-  }
 }
