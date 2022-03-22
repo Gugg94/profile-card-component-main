@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+  /* Defaults */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  /* Font */
+  --font-family-big-shoulders: 'Big Shoulders Display';
+  --font-family-lexend: 'Lexend Deca';
+
+  /* Colors Primary */
+
+  /* Colors Neutral */
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+}
